@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             BackgroundColor="Silver"
+             xmlns:local="clr-namespace:MonuMarksNigeria" 
+             x:Class="MonuMarksNigeria.MainPage">
+    <StackLayout>
+        
+        
+        
+         <Label Text="Nigeria states"
+               FontSize="25"
+               Margin="19, 12, 12, 11"
+               TextColor="Maroon"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="Center"
+               VerticalOptions="Center" />
+        
+        <Label Text="Learn about each state in Nigeria"
+               TextColor="Gray"
+               HorizontalOptions="Center"
+               VerticalTextAlignment="Center"
+               VerticalOptions="Center"/>
+        
+        
+         <Label Text="Choose a state to view.."
+               FontSize="24"
+               TextColor="Maroon"
+               HorizontalOptions="CenterAndExpand"
+               VerticalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"/>
+        
+        <Image x:Name="Arrow"
+               Source="down_arrow_red.png"
+               WidthRequest="80"
+               HeightRequest="120"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        
+        <Picker x:Name="StatePicker" 
+            Title="Select a state to start"
+            TitleColor="Maroon"
+            TextColor="Olive"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            SelectedIndexChanged="Handle_SelectedIndexChanged">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                  <x:String>Abuja (F.C.T.)</x:String>
+                  <x:String>Abia</x:String>
+                  <x:String>Adamawa</x:String>
+                  <x:String>Akwa Ibom</x:String>
+                  <x:String>Anambra</x:String>
+                  <x:String>Bauchi</x:String>
+                  <x:String>Bayelsa</x:String>
+                  <x:String>Benue</x:String>
+                  <x:String>Borno</x:String>
+                  <x:String>Cross River</x:String>
+                  <x:String>Delta</x:String>
+                  <x:String>Ebonyi</x:String>
+                  <x:String>Edo</x:String>
+                  <x:String>Ekiti</x:String>
+                  <x:String>Enugu</x:String>
+                  <x:String>Gombe</x:String>
+                  <x:String>Imo</x:String>
+                  <x:String>Jigawa</x:String>
+                  <x:String>Kaduna</x:String>
+                  <x:String>Kano</x:String>
+                  <x:String>Katsina</x:String>
+                  <x:String>Kebbi</x:String>
+                  <x:String>Kogi</x:String>
+                  <x:String>Kwara</x:String>
+                  <x:String>Lagos</x:String>
+                  <x:String>Nasarawa</x:String>
+                  <x:String>Niger</x:String>
+                  <x:String>Ogun</x:String>
+                  <x:String>Ondo</x:String>
+                  <x:String>Osun</x:String>
+                  <x:String>Oyo</x:String>
+                  <x:String>Plateau</x:String>
+                  <x:String>Rivers</x:String>
+                  <x:String>Sokoto</x:String>
+                  <x:String>Taraba</x:String>
+                  <x:String>Yobe</x:String>
+                  <x:String>Zamfara</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </StackLayout>
+</ContentPage>

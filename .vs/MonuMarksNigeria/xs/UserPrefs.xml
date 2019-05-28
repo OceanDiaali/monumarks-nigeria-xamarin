@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{C1190D1A-6058-400F-B43D-0089F2EECEE3}|Default">
+  <MonoDevelop.Ide.ItemProperties.MonuMarksNigeria FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MonuMarksNigeria.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MonuMarksNigeria" expanded="True">
+            <Node name="MonuMarksNigeria" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="DetailsPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MonuMarksNigeria.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MonuMarksNigeria.iOS FirstBuild="True" />
+</Properties>
